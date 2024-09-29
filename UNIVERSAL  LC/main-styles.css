@@ -1,0 +1,542 @@
+/* HEADER */
+#header {
+    position: sticky;
+    top: -0.5rem;
+    left: 0;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 0 1rem gray;
+    z-index: 100;
+}
+
+.nav-item {
+    padding: 1rem;
+    color: rgb(104, 104, 104) !important;
+}
+
+.nav-item:hover {
+    font-weight: 500 !important;
+    color: black !important;
+}
+/* / HEADER */
+
+
+
+
+
+
+
+
+
+/* MAIN */
+#main .h2 {
+    display: inline-block;
+    color: rgb(104, 104, 104);
+    padding: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem gray;
+    cursor: pointer;
+}
+
+#main .h2:hover {
+    color: black;
+}
+/* / MAIN */
+
+
+
+
+
+
+
+
+
+/* TEACHERS */
+.teachers .h2 {
+    display: inline-block;
+    color: rgb(104, 104, 104);
+    padding: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem gray;
+    cursor: pointer;
+}
+
+.teachers .h2:hover {
+    color: black;
+}
+
+
+.teachers .row .col-12 {
+    border: 2rem solid white;
+    padding: 3rem;
+    color: #ffffff;
+    font-size: 2rem;
+    height: 15rem;
+    background-color: #ececec;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.teachers .row .col-12 .review-date {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    color: rgb(120, 120, 120);
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+    height: 2.8rem;
+
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.teachers .row .col-12 .review-date img {
+    height: 96%;
+    border-radius: 0.2rem;
+    padding-top: 0;
+    padding-right: 0.5rem;
+}
+
+.teachers .row .col-12 .reviewer-name {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-top: 0.8rem;
+    color: black;
+
+    position: absolute;
+    left: 0.8rem;
+}
+
+.teachers .row .col-12 .review-text {
+    font-size: 0.8rem;
+    color: gray;
+
+    position: absolute;
+    left: 0.8rem;
+    bottom: -0.5rem;
+}
+/* / TEACHERS */
+
+
+
+
+
+
+
+
+
+/* SUBJECTS */
+.subjects .h2 {
+    display: inline-block;
+    color: rgb(104, 104, 104);
+    padding: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem gray;
+    cursor: pointer;
+}
+
+.subjects .h2:hover {
+    color: black;
+}
+
+
+.subjects .row .col-12 {
+    border: 2rem solid white;
+    padding: 3rem;
+    color: #ffffff;
+    font-size: 2rem;
+    height: 15rem;
+    background-color: #ececec;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.subjects .row .col-12 .review-date {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    color: rgb(120, 120, 120);
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.subjects .row .col-12 .reviewer-name {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-top: 0.8rem;
+    color: black;
+
+    position: absolute;
+    left: 0.8rem;
+}
+
+.subjects .row .col-12 .review-text {
+    font-size: 0.8rem;
+    color: gray;
+
+    position: absolute;
+    left: 0.8rem;
+    bottom: -0.5rem;
+}
+
+/* / SUBJECTS */
+
+
+
+
+
+
+
+
+
+/* FACILITIES */
+/* / FACILITIES */
+
+
+
+
+
+
+
+
+
+/* ACTIVITIES */
+.activities {
+    position: static;
+}
+
+.activities .h2 {
+    display: inline-block;
+    color: rgb(104, 104, 104);
+    padding: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem gray;
+    cursor: pointer;
+}
+
+.activities .h2:hover {
+    color: black;
+}
+
+.carousel-item {
+    height: 30rem;
+    box-shadow: 0 0 1rem gray;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+#carouselExampleInterval {
+    border-radius: 1rem;
+}
+/* / ACTIVITIES */
+
+
+
+
+
+
+
+
+
+/* RESULTS */
+.results .h2 {
+    display: inline-block;
+    color: rgb(104, 104, 104);
+    padding: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem gray;
+    cursor: pointer;
+}
+
+.results .h2:hover {
+    color: black;
+}
+
+.more-results-btn-1,
+.more-results-btn-2,
+.more-results-btn-3 {
+    border: none;
+    padding: 1rem;
+    background-color: #c9c9c9;
+    border-radius: 0.6rem;
+
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.5;
+    letter-spacing: 0.1rem;
+}
+
+.more-results-btn-1:hover,
+.more-results-btn-2:hover,
+.more-results-btn-3:hover {
+    background-color: #b7b7b7;
+}
+/* / RESULTS */
+
+
+
+
+
+
+
+
+
+/* REVIEWS */
+.reviews {
+    position: static;
+}
+
+.reviews .h2 {
+    display: inline-block;
+    color: rgb(104, 104, 104);
+    padding: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem gray;
+    cursor: pointer;
+}
+
+.reviews .h2:hover {
+    color: black;
+}
+
+
+.results .row .col-12,
+.reviews .row .col-12 {
+    border: 2rem solid white;
+    padding: 3rem;
+    color: #ffffff;
+    font-size: 2rem;
+    height: 15rem;
+    background-color: #ececec;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.results .row .col-12 .review-date,
+.reviews .row .col-12 .review-date {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    color: rgb(120, 120, 120);
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+.results .row .col-12 .reviewer-name,
+.reviews .row .col-12 .reviewer-name {
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-top: 0.8rem;
+    color: black;
+
+    position: absolute;
+    left: 0.8rem;
+}
+
+.results .row .col-12 .review-text,
+.reviews .row .col-12 .review-text {
+    font-size: 0.8rem;
+    color: gray;
+
+    position: absolute;
+    left: 0.8rem;
+    bottom: -0.5rem;
+}
+
+.star-box {
+    position: absolute;
+    left: 1rem;
+    margin-top: 0.8rem;
+}
+
+.fa-solid {
+    color: gold;
+    font-size: 0.8rem;
+}
+
+.fa-regular {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.temporary-closed {
+    display: none;
+}
+
+.more-reviews-btn {
+    border: none;
+    padding: 1rem;
+    background-color: #c9c9c9;
+    border-radius: 0.6rem;
+
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.5;
+    letter-spacing: 0.1rem;
+}
+
+.more-reviews-btn:hover {
+    background-color: #b7b7b7;
+}
+/* / REVIEWS */
+
+
+
+
+
+
+
+
+
+/* CONTACT */
+.contact-us {
+    z-index: 1;
+}
+
+.contact-us iframe {
+    width: 90%;
+}
+
+.contact-us .h2 {
+    display: inline-block;
+    color: rgb(104, 104, 104);
+    padding: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem gray;
+    cursor: pointer;
+}
+
+.contact-us .h2:hover {
+    color: black;
+}
+
+.contact-us .container .row .col-12 {
+    border: 2rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    background-color: #ececec;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.contact-us .container .row .col-12 i {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    color: rgb(120, 120, 120);
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0.6rem;
+    left: 0.6rem;
+}
+
+.contact-us .container .row .col-12 p {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    color: rgb(120, 120, 120);
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+}
+
+.contact-us .container .row .col-12 i:hover,
+.contact-us .container .row .col-12 p:hover {
+    color: black;
+    cursor: pointer;
+}
+/* / CONTACT */
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+#footer {
+    box-shadow: 0 0 1rem gray;
+}
+
+.container center img {
+    width: 8rem;
+    padding-top: 1rem;
+}
+
+.social-media-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-box a i {
+    font-size: 1.6rem;
+    padding: 1.5rem 1rem;
+    transition: 0.4s;
+    color: gray;
+}
+
+.social-media-box a .fa-telegram:hover {
+    color: dodgerblue;
+}
+
+.social-media-box a .fa-facebook:hover {
+    color: rgb(43, 100, 255);
+}
+
+.social-media-box a .fa-instagram:hover {
+    color: crimson;
+}
+
+.social-media-box a .fa-youtube:hover {
+    color: red;
+}
+
+.footer-menubar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menubar ul {
+    padding: 0.5rem 3rem;
+}
+
+.footer-menubar ul a {
+    list-style: none;
+    line-height: 2;
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+}
+
+.footer-menubar ul a:hover {
+    font-weight: 400;
+    color: black;
+}
+
+.footer-copyright {
+    color: #ffffff;
+    background-color: #333;
+    width: 100% !important;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: center;
+}
+/* / FOOTER */
